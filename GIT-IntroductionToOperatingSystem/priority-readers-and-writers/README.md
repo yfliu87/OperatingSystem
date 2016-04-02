@@ -5,9 +5,13 @@ PS1-1   Priority Readers and Writers
 Write a multi-thread C program that gives readers priority over writers concerning a shared (global) variable.
 Essentially, if any readers are waiting, then they have priority over threads-writers can only write when there are no readers.
 This program should adhere to the following constraints:
+
 	Multiple readers/writers must be supported
+
 	Readers must read the shared variable X number of times
+
 	Writers must write the shared variable X number of times
+
 	Readers must print:
 		The value read
 		The number of readers present when value is read
